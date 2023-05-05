@@ -53,7 +53,7 @@ for i in range(0,repetir):
                 vmlist = vmlist - 1
                 if(lista[vmlist] == '\U0001F603'): 
                     lista[vmlist] = '\U0001F927'
-            elif(rlist > 0 and rlist < 4):
+            elif(rlist > 0 and rlist < (num - 1)):
                 vlist = rlist + 1
                 vmlist = rlist - 1
                 if(lista[vlist] == '\U0001F603' or lista[vmlist] == '\U0001F603'): 
